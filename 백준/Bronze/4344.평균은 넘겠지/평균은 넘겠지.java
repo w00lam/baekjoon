@@ -11,7 +11,7 @@ public class Main {
         int[] arr;
         StringTokenizer stringTokenizer;
 
-        for (int i = 0; i < c; i++) {
+        for (int i = 0; i < c; i++) { // 입력한 테스트 케이스 수만큼 반복.
             stringTokenizer = new StringTokenizer(bufferedReader.readLine(), " ");
 
             int n = Integer.parseInt(stringTokenizer.nextToken());
@@ -20,7 +20,7 @@ public class Main {
 
             double sum = 0;
 
-            for (int j = 0; j < n; j++) {
+            for (int j = 0; j < n; j++) { // 입력한 성적 수만큼 반복.
                 int score = Integer.parseInt(stringTokenizer.nextToken());
                 arr[j] = score;
                 sum += score;
