@@ -7,6 +7,7 @@ public class Main {
     public static void main(String args[]) throws IOException {
 
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        // HashSet<> : 자바 Collection 중 Set 의 파생클래스, set 을 집합이라고 생각하면 된다. 중복원소 허용x, 순서x.
         HashSet<Integer> hashSet= new HashSet<>();
 
         for (int i = 0; i < 10; i++) {
