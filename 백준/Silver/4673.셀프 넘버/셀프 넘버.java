@@ -6,7 +6,7 @@ public class Main {
             int n = d(i);
 
             if (n < 10001) {
-                check[n] = true;
+                check[n] = true; // 셀프 넘버 -> true
             }
         }
 
@@ -21,7 +21,7 @@ public class Main {
         System.out.println(stringBuilder);
     }
 
-    public static int d(int n) {
+    public static int d(int n) { // 셀프넘버 확인 함수
         int m = n;
 
         while (n != 0) {
