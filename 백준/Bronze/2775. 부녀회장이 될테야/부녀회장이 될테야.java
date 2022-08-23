@@ -3,9 +3,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Main {
-    private static final int row = 15;
-    private static final int col = 15;
-    private static final int[][] APT = new int[row][col];
+    public static final int row = 15;
+    public static final int col = 15;
+    public static final int[][] APT = new int[row][col];
 
     public static void main(String args[]) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
