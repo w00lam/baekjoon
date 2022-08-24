@@ -5,8 +5,10 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        int M = Integer.parseInt(bufferedReader.readLine());
-        int N = Integer.parseInt(bufferedReader.readLine());
+        StringTokenizer stringTokenizer = new StringTokenizer(bufferedReader.readLine(), " ");
+        
+        int M = Integer.parseInt(stringTokenizer.nextToken());
+        int N = Integer.parseInt(stringTokenizer.nextToken());
         int sum = 0;
         int min = Integer.MIN_VALUE;
 
