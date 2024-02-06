@@ -21,5 +21,28 @@ public class Main {
         }
 
         System.out.println(sb);
+
+        /* 카운팅 정렬
+        int[] cnt = new int[10001];
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        int N = Integer.parseInt(br.readLine());
+
+        for (int i = 0; i < N; i++) {
+            cnt[Integer.parseInt(br.readLine())] ++;
+        }
+
+        br.close();
+
+        StringBuilder sb = new StringBuilder();
+        
+        for(int i = 1; i < 10001; i++){
+            while(cnt[i] > 0){
+                sb.append(i).append('\n');
+                cnt[i]--;
+            }
+        }
+        System.out.println(sb);*/
     }
 }
