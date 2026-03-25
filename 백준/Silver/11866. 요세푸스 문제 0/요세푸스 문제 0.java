@@ -28,8 +28,8 @@ public class Main {
 
         String result = removedNumbers.stream()
                 .map(String::valueOf)
-                .collect(Collectors.joining(", "));
+                .collect(Collectors.joining(", ", "<", ">"));
 
-        System.out.println("<" + result + ">");
+        System.out.println(result);
     }
 }
